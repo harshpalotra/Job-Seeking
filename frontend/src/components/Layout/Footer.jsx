@@ -13,21 +13,21 @@ const Footer = () => {
   const { isAuthorized } = useContext(Context);
   return (
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
-      <div>&copy; 2024 All Rights Reserved Manish Patidar</div>
+      <div>&copy; 2024 All Rights Reserved Harsh Palotra</div>
       <div>
         <Link
           target="_blank"
-          to={"https://www.instagram.com/_.manish.patidar._/"}
+          to={"https://www.instagram.com/harsh_palotra/"}
         >
           <FaSquareInstagram />
         </Link>
-        <Link target="_blank" to={"https://github.com/ManishMay20"}>
+        <Link target="_blank" to={"https://github.com/harshpalotra"}>
           <FaSquareGithub />
         </Link>
-        <Link target="_blank" to={"https://www.linkedin.com/in/manish-may20/"}>
+        <Link target="_blank" to={"https://www.linkedin.com/in/harsh-palotra-619251229/"}>
           <FaLinkedinIn />
         </Link>
-        <Link target="_blank" to={"https://twitter.com/manish_may20"}>
+        <Link target="_blank" to={"https://x.com/harsh_palotra"}>
           <FaSquareXTwitter />
         </Link>
       </div>
